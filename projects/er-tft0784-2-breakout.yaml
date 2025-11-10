@@ -1,0 +1,14 @@
+---
+
+tasks:
+- name: source components
+  tasks:
+    - name: 22 position ribbon cable for SOM -> breakout
+    - name: 15v -> 5v converter
+- name: add headers
+- name: power
+  tasks:
+  - name: add usbc-pd
+  - name: add 15v -> 5v dc/dc converter
+  - name: add 5v barrel connector
+- name: add mounting holes for use with olimex iMX8MP-SOM

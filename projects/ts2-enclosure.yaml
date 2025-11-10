@@ -1,0 +1,14 @@
+---
+description: design and produce the ts2 enclosure
+
+blockers:
+- ts2-controls
+
+tasks:
+- name: create full size models
+- name: production
+  tasks:
+  - send cut send
+  - osh cut
+  - jlc sheetmetal
+- name: silkscreen panel

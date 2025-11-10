@@ -1,0 +1,16 @@
+---
+
+descriptions: investigate using rp2350 for controls input and driving leds
+blockers:
+- er-tft0784-2-breakout
+
+tasks:
+- name: test UART on pi pico
+- name: test SPI on pi pico
+- name: dma neopixel driver
+  description: >
+    changing LED state causes glitches on the macropad. figure out how
+    to change LEDs without glitches
+  tasks:
+  - name: solder test LED board? or use macropad for testing?
+- name: two way comms with a teensy 4.0
